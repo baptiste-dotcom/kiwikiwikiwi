@@ -277,7 +277,8 @@ const anecdotes = [
   "Tom Hanks collectionne les vieilles machines à écrire.",
   "Marilyn Monroe possédait plus de 400 livres dans sa bibliothèque personnelle.",
   "Taylor Swift a appris à écrire son nom en cursive avant de savoir lire.",
-  "Keanu Reeves a donné une grande partie de son salaire de Matrix à l’équipe technique."
+  "Keanu Reeves a donné une grande partie de son salaire de Matrix à l’équipe technique.",
+  "En Norvège, un pingouin nommé Sir Nils Olav est colonel de l'armée royale. (ah je te jure)."
 ];
 
 document.getElementById("factButton").addEventListener("click", () => {
@@ -288,4 +289,5 @@ document.getElementById("factButton").addEventListener("click", () => {
 document.getElementById("moreButton").addEventListener("click", () => {
   const bubble = document.getElementById("moreBubble");
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
+
 });
