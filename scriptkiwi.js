@@ -1,5 +1,5 @@
 const anecdotes = [
-  "Bonjour ! C'est Kiwi-maintenance ici, je suis occupé à vérifier mes sources, à très vite !"
+  "Coucou ! C'est Kiwi-maintenance ici, je suis occupé à vérifier mes sources, à très vite !"
 ];
 
 document.getElementById("factButton").addEventListener("click", () => {
@@ -12,4 +12,5 @@ document.getElementById("moreButton").addEventListener("click", () => {
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
 
 });
+
 
