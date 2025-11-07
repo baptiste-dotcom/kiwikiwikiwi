@@ -7,7 +7,7 @@ const anecdotes = [
 "La mode caractérisant l'homme de la Renaissance - cheveux courts et port de la barbe - est née d'un malencontreux incident survenu à François 1er, le jour de l'Epiphanie 1521. Ayant reçu une bûche enflammée sur la tête, les médecins coupèrent les longs cheveux du roi. Pour cacher les cicatrices, il laissa pousser la barbe. (histoire-pour-tous.fr)",
 "Sous l'Ancien Régime, le tutoiement était considéré comme une grossière impertinence. Après la Révolution les mœurs changent, et la Convention rend obligatoire le tutoiement à partir de novembre 1793, dans le civil et dans les administrations marquant un lien de fraternité universelle. Mais cette mode ne durera qu'un an, jusqu'à la chute de Robespierre. (histoire-pour-tous.fr)",
 "Le God save the Queen est d'origine française. C'est dur à accepter mais oui, il est à l'origine un morceau français ! pour fêter le rétablissement de Louis XIV après son opération de la fistule en novembre 1686, Mme de Maintenon organise une soirée, la duchesse de Brinton compose un poème et Lully rajoute la musique. Un anglais passant à St Cyr ce jour là, trouva très jolie la musique et rapporta cet air en Angleterre. Il pianota, changea jusque quelques mesures et joua cet air devant Marie Stuart et Guillaume d'Orange qui en firent leur musique officielle. (histoire-pour-tous.fr)",
-"La fête national du 14 juillet correspond à la fête de la Fédération de 1790 et non la prise de la Bastille de 1789. Fête de commémoration de la prise de la Bastille, elle se veut être la réconciliation et l'unité de tous les français, ainsi que le roi. Et ce n'est que le 6 juillet 1880 que le "14 juillet" devint officiellement jour de la Fête national française. (histoire-pour-tous.fr)",
+"La fête national du 14 juillet correspond à la fête de la Fédération de 1790 et non la prise de la Bastille de 1789. Fête de commémoration de la prise de la Bastille, elle se veut être la réconciliation et l'unité de tous les français, ainsi que le roi. Et ce n'est que le 6 juillet 1880 que le 14 juillet devint officiellement jour de la Fête national française. (histoire-pour-tous.fr)",
 "Le Monténégro et le japon ont été en guerre pendant 101 ans: ils avaient oublié de signer la paix.. ah ben écoutes, comme quoi tout est possible. Allié de la Russie, le Monténégro a déclaré la guerre au Japon lors de la guerre russo-japonaise de 1904. En l’absence de marine, le Montenegro s’est contenté de faire les gros yeux au Japon, laissant la Russie d’occuper du reste. Et puis… Le Monténégro s’est retrouvé rattaché à la Serbie puis à la Yougoslavie et le traité de paix permettant aux deux pays de rétablir des relations diplomatiques n’a été ratifié qu’en 2006, lors de l’indépendance du pays. (topito.com)",
 "La première bombe tombée sur Berlin pendant la guerre n'a tué personne. A part un éléphant, mais comment ça me diras-tu ? Donc je t'explique, en effet, L’éléphant se trouvait dans le zoo de Berlin. Certaines sources disent aussi qu’une girafe est morte dans le même temps. Pas très cool pour les espèces protégées. (topito.com)",
 "Louis XVI a participé à l'amélioration de la guillotine, oui oui, tu as bien entendu, il a permis l'amélioration du dispositif qui lui a tranché la tête quelques mois plus tard. En 1792, le médecin Antoine Louis met au point la guillotine (qui n’est d’ailleurs pas la machine de Joseph Guillotin) pour rendre les exécutions plus rapides et plus propres. Mais son prototype prévoit une lame droite ou en croissant qui n’est pas idéale pour cisailler un cou. Louis XVI se gratte le menton et en bon bricolo du dimanche, il propose à Antoine Louis d’opter pour une lame en biseau. Rien à dire, bravo Louis. (topito.com)",
@@ -32,7 +32,7 @@ const anecdotes = [
 "La troisième langue officielle de la Nouvelle-Zélande est le langage des signes. (laliste.net)",
 "Lorsqu’une phrase comporte toutes les lettres de l’alphabet, c’est un pangramme.",
 "Les uniformes nazis ont été fabriqués par Hugo Boss",
-"La "Votaphobie" est la peur des factures. Est-ce qu'on l'aurait pas tous un peu ?",
+"La Votaphobie est la peur des factures. Est-ce qu'on l'aurait pas tous un peu ?",
 "Pour le film Charlie et la chocolaterie, Tim Burton a préféré utiliser 40 écureuils dressés à casser des noisettes plutôt que de faire appel aux effets spéciaux. Merci à lui de créer de l'emploie !",
 "Pour La Nuit des masques (Halloween), le réalisateur a repris le masque du Capitaine Kirk de Star Trek et l’a repeint pour en faire celui de Michael Myers.",
 "Après 33 ans de pause, c’est en 2002 que Steven Spielberg a terminé son cursus universitaire en rendant La Liste de Schindler comme projet de fin d’études. (daylygeekshow.com)",
@@ -47,7 +47,7 @@ const anecdotes = [
 "La boîte de Pandore désigne aujourd’hui la cause de tous les malheurs, cette expression est née d’une légende de la mythologie grecque, dans laquelle cette boîte est en fait une jarre. En outre, Pandore était considérée comme la première femme de l’humanité. (je veux pas me faire des ennemis, on parle bien de la mythologie grec)",
 "L’endroit le plus profond de la Terre est la fosse des Mariannes dans l’océan Pacifique. Sa profondeur est de 36 201 pieds (11 034 m). À savoir presque 11 km !",
 "Avec 6 853 km, le Nil est le plus long fleuve du monde. Ses ressources en eau sont également partagées par 11 pays différents.",
-"Tim Berners-Lee est l’inventeur du tout premier navigateur Web (World Wide Web) en 1990. Ce qui nous donne "www" encore partout de nos jours.",
+"Tim Berners-Lee est l’inventeur du tout premier navigateur Web (World Wide Web) en 1990. Ce qui nous donne www encore partout de nos jours.",
 "Marie Curie a été la première personne à remporter DEUX prix Nobel – l’un de physique, en 1903, l’autre de chimie, en 1911, pour ses travaux sur la radioactivité.",
 "Le plus jeune lauréat du prix Nobel de la paix est Malala Yousafzai (âgée d’à peine 17 ans en 2014), récompensée pour son œuvre de militante des droits de l’enfant et de championne du droit des filles à l’éducation."
 ];
@@ -62,6 +62,7 @@ document.getElementById("moreButton").addEventListener("click", () => {
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
 
 });
+
 
 
 
