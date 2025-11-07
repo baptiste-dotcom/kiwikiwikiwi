@@ -19,7 +19,7 @@ const anecdotes = [
 "Un homme a ouvert une lettre piégé qu’il avait envoyé. Il avait malheureusement oublié de mettre le timbre et la lettre lui avait été renvoyée. Pas de chance pour lui.. Il ne recommencera plus !",
 "Un homme meurt dans une chute à moto lors d’une manifestation contre le port obligatoire du casque. Les médecins ont révélé qu’il aurait survécu s’il avait porté un casque sur la tête lors de sa chute. (laliste.net)",
 "La mer morte est 429 mètres en dessous du niveau de la mer. Après, en dessous du niveau de quelle mer, je sais pas. Vu qu’a priori la mer morte c’est une mer aussi. Qui choisit le niveau de la mer? Ça n’a aucun sens. (topito.com)",
-"Il y a une montagne en Nouvelle-Zélande qui s'appelle Taumatawhakatangihangak oauauotamateaturipukaka pikimaungahoronukupokaiwhe nua kitanatahu. déja, si tu l'as lu en entier bravo, et merci à toi. N'oublie pas de boire de l'eau."
+"Il y a une montagne en Nouvelle-Zélande qui s'appelle Taumatawhakatangihangak oauauotamateaturipukaka pikimaungahoronukupokaiwhe nua kitanatahu. déja, si tu l'as lu en entier bravo, et merci à toi. N'oublie pas de boire de l'eau.",
 "Il y a 3.2 km et 21h d'écart entre les îles Diomède. Situés de part et d’autre de la ligne de jour, ces deux bouts de caillou forment également le détroit de Béring, qu’on peut traverser à pied l’hiver pour passer des Etats-Unis à la Russie au calme. Et oui, la terre n'est pas plate, désolé..",
 "Il y a 2.27 papes par km² au Vatican, Ce qui en fait le pays avec la plus forte densité de papes au monde. (topito.com)",
 "L'Islande est le seul pays européen à ne pas avoir de train. (petitfute.com)",
@@ -30,7 +30,7 @@ const anecdotes = [
 "Le koala a des empreintes digitales similaires aux nôtres. (laliste.net)",
 "Il n’y a qu’un seul panneau STOP à Paris, Vous trouverez ce panneau sur le quai Saint-Exupéry dans le 16e arrondissement. (laliste.net)",
 "La troisième langue officielle de la Nouvelle-Zélande est le langage des signes. (laliste.net)",
-"Lorsqu’une phrase comporte toutes les lettres de l’alphabet, c’est un pangramme."
+"Lorsqu’une phrase comporte toutes les lettres de l’alphabet, c’est un pangramme.",
 "Les uniformes nazis ont été fabriqués par Hugo Boss",
 "La "Votaphobie" est la peur des factures. Est-ce qu'on l'aurait pas tous un peu ?",
 "Pour le film Charlie et la chocolaterie, Tim Burton a préféré utiliser 40 écureuils dressés à casser des noisettes plutôt que de faire appel aux effets spéciaux. Merci à lui de créer de l'emploie !",
@@ -39,7 +39,7 @@ const anecdotes = [
 "Pumba, dans Le Roi lion, est le tout premier personnage de Disney à péter.",
 "Dans Iron Man, les terroristes qui kidnappent Tony Stark et demandent une rançon, parlent l’Ourdou. En traduisant ce qu’ils disent, on se rend compte qu’ils sont en train de dévoiler toute l’intrigue du film. ça c'est de la fun fact, de rien ! (dailygeekshow.com)",
 "Le saviez-vous ? Avant 1540, l’orange s’appelle… « safran », comme l’épice venue d’Orient ! C’est à cette date que la couleur, qui tire finalement son nom de l’agrume, est pour la première fois mentionnée dans un manuscrit anglais. (beauxarts.com)",
-"Pablo Picasso a peint quelque 60 000 œuvres au cours de sa vie, soit deux par jour en moyenne. Maintenant il peut se reposer, il l'a bien mérité."
+"Pablo Picasso a peint quelque 60 000 œuvres au cours de sa vie, soit deux par jour en moyenne. Maintenant il peut se reposer, il l'a bien mérité.",
 "Saviez-vous que de 1912 à 1948, les JO avaient des épreuves d’art ? Le « Pentathlon des muses » récompensait en architecture, littérature, musique, peinture et sculpture, les meilleures représentations du sport. Une compétition que le musicien Pharell Williams aimerait, selon ses déclarations récentes, vouloir voir ressusciter pour les Jeux de 2028 à Los Angeles. (beauxarts.com)",
 "La Vénus de Milo n’a quitté le musée du Louvre qu’une seule fois : en 1964 pour le Japon. (beauxarts.com)",
 "La construction de la Sagrada Familia, l’un des monuments les plus connus et les plus beaux de Barcelone, a demandé plus de temps que celle de la pyramide de Khéops, en Égypte. Le chantier de cette église, conçue par Gaudí et inscrite au patrimoine mondial de l’UNESCO, a démarré en 1882.",
@@ -62,6 +62,7 @@ document.getElementById("moreButton").addEventListener("click", () => {
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
 
 });
+
 
 
 
