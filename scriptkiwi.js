@@ -12,8 +12,8 @@ const anecdotes = [
 "La première bombe tombée sur Berlin pendant la guerre n'a tué personne. A part un éléphant, mais comment ça me diras-tu ? Donc je t'explique, en effet, L’éléphant se trouvait dans le zoo de Berlin. Certaines sources disent aussi qu’une girafe est morte dans le même temps. Pas très cool pour les espèces protégées. (topito.com)",
 "Louis XVI a participé à l'amélioration de la guillotine, oui oui, tu as bien entendu, il a permis l'amélioration du dispositif qui lui a tranché la tête quelques mois plus tard. En 1792, le médecin Antoine Louis met au point la guillotine (qui n’est d’ailleurs pas la machine de Joseph Guillotin) pour rendre les exécutions plus rapides et plus propres. Mais son prototype prévoit une lame droite ou en croissant qui n’est pas idéale pour cisailler un cou. Louis XVI se gratte le menton et en bon bricolo du dimanche, il propose à Antoine Louis d’opter pour une lame en biseau. Rien à dire, bravo Louis. (topito.com)",
 "La France a déclaré la guerre au Mexique pour une histoire de pâtisserie. C’est un chef pâtissier français qui est à l’origine du conflit : après avoir en vain cherché à obtenir réparation auprès du gouvernement mexicain suite à la dégradation de sa pâtisserie par une escouade militaire dont les soldats en avaient profité pour lui piquer plein de gâteaux, il a décidé de se tourner vers Louis Philippe en lui demandant d’intercéder. Aussitôt, Louis Philippe a décidé du blocus des ports du Golfe du Mexique, ce qui à terme a mené à l’invasion française de Veracruz. (topito.com)",
-"La terre n'a pas 2025 ans, et si tu le pensais, je ne te juge pas, mais je te propose de rester et d'en apprendre davantage parce que la c'est pas terrible. (Baptiste Scharroo)",
-"Le savais-tu, si Baptiste Scharroo était né de l'union entre Cronos et Rhéa, ce serait lui le maitre du ciel, du tonnerre et des éclairs, pas Zeus. (Je ne suis qu'un Kiwi sous ses ordres, je suis obligé..) (Source: WikipéMoi.moi)",
+"La terre n'a pas 2025 ans, et si tu le pensais, je ne te juge pas, mais je te propose de rester et d'en apprendre davantage parce que la c'est pas terrible. (B.S.)",
+"Le savais-tu, si j'étais né de l'union entre Cronos et Rhéa, ce serait lui le maitre du ciel, du tonnerre et des éclairs, pas Zeus. (True Story) (Source: WikipéMoi.moi)",
 "Un homme en Alaska promenait son chien au bord d’un lac. Pour on ne sait quelle raison, il a eu l’idée de lancer un bâton de dynamite sur le lac gelé. Le problème, c’est que son chien le lui a rapporté. Il n’est plus là pour en parler… (laliste.net)",
 "Garry Hoy, un notaire de 39 ans, a voulu démontrer à des étudiants la solidité des vitres de l’immeuble Bank Tower à Toronto. La vitre ne s’est pas brisée, mais s’est délogée de son cadre sous son coup d’épaule. Il fit une chute de 24 étages. L'histoire est bête et connue mais cela montre parfaitement la débilité humaine. (laliste.net)",
 "Un homme a ouvert une lettre piégé qu’il avait envoyé. Il avait malheureusement oublié de mettre le timbre et la lettre lui avait été renvoyée. Pas de chance pour lui.. Il ne recommencera plus !",
@@ -62,6 +62,7 @@ document.getElementById("moreButton").addEventListener("click", () => {
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
 
 });
+
 
 
 
