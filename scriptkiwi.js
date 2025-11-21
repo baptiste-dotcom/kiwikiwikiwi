@@ -49,7 +49,21 @@ const anecdotes = [
 "Avec 6 853 km, le Nil est le plus long fleuve du monde. Ses ressources en eau sont également partagées par 11 pays différents.",
 "Tim Berners-Lee est l’inventeur du tout premier navigateur Web (World Wide Web) en 1990. Ce qui nous donne www encore partout de nos jours.",
 "Marie Curie a été la première personne à remporter DEUX prix Nobel – l’un de physique, en 1903, l’autre de chimie, en 1911, pour ses travaux sur la radioactivité.",
-"Le plus jeune lauréat du prix Nobel de la paix est Malala Yousafzai (âgée d’à peine 17 ans en 2014), récompensée pour son œuvre de militante des droits de l’enfant et de championne du droit des filles à l’éducation."
+"Le plus jeune lauréat du prix Nobel de la paix est Malala Yousafzai (âgée d’à peine 17 ans en 2014), récompensée pour son œuvre de militante des droits de l’enfant et de championne du droit des filles à l’éducation.",
+"L’apopathodiaphulatophobie est la peur d’être constipé",
+"Une fourmi peut traîner jusqu’à 60 fois son propre poids. Moi j’ai essayé, je peux aller jusqu’à une demi fois les jours de grande forme",
+"La pandiculation est le mot qui signifie s’étirer pour se réveiller. J’ai compté, je pandicule 600 fois par jour",
+"En pétant continuellement pendant 6 ans et 9 mois, vous produirez assez de gaz pour créer l’énergie d’une bombe atomique",
+"Une loi dans le Massachusetts interdit d’avoir un gorille sur le siège arrière de sa voiture. (Source: envoiturecarine.fr, routard.com)",
+"En 1972, une hôtesse de l’air du nom de Vesna Vulovic a survécu a une chute de 10160 mètres",
+"Dolly Parton (chanteuse Américaine) a participé au concours de son propre sosie et a perdu face à une drag-queen…",
+"En Californie, la loi stipule qu’il est illégal de tirer sur quoi que ce soit depuis sa voiture, excepté une baleine. Mais les baleine sont peut-être agressive en Californie. (Source: imparfaites.be)",
+"La cusuraphobie est la peur d’avoir tort, sale cusuraphobe que tié",
+"Le briquet a été inventé avant les allumettes, Tu me crois pas ? Va vérifier (Source: la Calvasse de Squeezie)",
+"L'armée allemande lors de la WW1 qui décide de déguiser un paquebot en un paquebot anglais (HMS Carmania). Sauf que le déguisé n'aura jamais l'occasion de s'infiltrer dans les lignes ennemies puisque le premier bateau anglais qu'il croise est le vrai HMS Carmania (Source: un random sur Reddit mais il à donné sa source https://www.filovent.com/front/get_article/bataille-navale-trindade",
+"Quand le Liechtenstein est parti en guerre en 1866, 80 soldats sont partis, 81 sont rentrés. Ils s'étaient fait un copain sur la route. Hein ? Quoi ? Comment ? c'était en fait un officier autrichien qui a fait la route du retour avec eux",
+"Les Américains ont élu Donald Trump président. Deux fois. On pourrait croire à une blague mais je vous jure, et ils avaient le choix en plus..",
+"Il y a plus de combinaisons possibles dans un jeu d’échecs que d’atomes dans l’univers observable. (Source: mentorshow.com)",
 ];
 
 document.getElementById("factButton").addEventListener("click", () => {
@@ -62,6 +76,7 @@ document.getElementById("moreButton").addEventListener("click", () => {
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
 
 });
+
 
 
 
