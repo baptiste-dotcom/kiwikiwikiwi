@@ -28,7 +28,7 @@ const anecdotes = [
 "Au Royaume-Uni, il est légal de tuer un Écossais dans la ville de York s’il porte un arc et des flèches. (laliste.net)",
 "Chaque année, plus de personnes meurent par une noix de coco qui tombe d’un arbre que par des attaques de requins, bon, on est tous d'accord qu'on préfère tous tomber sur un cocotier que sur un requin, mais attention quand même ! (laliste.net)",
 "Le koala a des empreintes digitales similaires aux nôtres. (laliste.net)",
-"Il n’y a qu’un seul panneau STOP à Paris, Vous trouverez ce panneau sur le quai Saint-Exupéry dans le 16e arrondissement. (laliste.net)",
+"Il n’y a aucun panneau stop à Paris, le dernier a été enlevé en 2016",
 "La troisième langue officielle de la Nouvelle-Zélande est le langage des signes. (laliste.net)",
 "Lorsqu’une phrase comporte toutes les lettres de l’alphabet, c’est un pangramme.",
 "Les uniformes nazis ont été fabriqués par Hugo Boss",
@@ -76,6 +76,7 @@ document.getElementById("moreButton").addEventListener("click", () => {
   bubble.style.display = bubble.style.display === "none" ? "block" : "none";
 
 });
+
 
 
 
